@@ -1,0 +1,18 @@
+.header {
+    background-color: #fff;
+    border-bottom: 1px solid #dce1e6;
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+}
+
+.header__img {
+    width: 50px;
+}
+
+.header__text {
+    font-weight: 600;
+    font-size: 20px;
+}
