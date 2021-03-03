@@ -1,5 +1,6 @@
 .nav__wrapper {
     display: flex;
+    width: 20%;
 }
 
 .nav {

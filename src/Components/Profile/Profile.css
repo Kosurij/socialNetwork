@@ -3,7 +3,7 @@
     flex-wrap: wrap;
     width: 80%;
     padding-top: 10px;
-    margin: 0 0 30px 50px;
+    margin: 0 0 30px 15px;
 }
 
 .profile__block {
@@ -13,6 +13,10 @@
     border-radius: 4px;
     box-shadow: 0 1px 0 0 gray;
     margin: 15px 15px 0;
+}
+
+.profile__block--height-sm {
+    max-height: 170px;
 }
 
 .profile__block--small {
@@ -112,4 +116,15 @@
 
 .profile__memories_item:hover {
     background: rgba(229, 235, 241, 0.9);
+}
+
+.create__input {
+    display: block;
+    margin: 20px auto;
+    padding: 5px;
+    border-radius: 20px;
+    border: 1px solid rgba(112,112,112,0.3);
+    color: #2b2a2c;
+    outline: none;
+    resize: none;
 }

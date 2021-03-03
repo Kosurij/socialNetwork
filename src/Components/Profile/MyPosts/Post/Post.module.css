@@ -1,0 +1,36 @@
+.post {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.avatar{
+    margin-left: 10px;
+}
+
+.avatar img{
+    border-radius: 50%;
+    width: 50px;
+}
+
+.text {
+    margin-left: 10px;
+}
+
+.like {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    width: 7%;
+    cursor: pointer;
+}
+
+.like img {
+    
+    width: 22px;
+}
+
+.likeCounter {
+    display: inline-block;
+    margin-left: 5px;
+}

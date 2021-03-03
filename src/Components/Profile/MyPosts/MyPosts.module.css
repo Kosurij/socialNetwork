@@ -1,0 +1,37 @@
+.posts {
+    width: 100%;
+}
+
+.input {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid rgba(112,112,112,0.3);
+    color: #2b2a2c;
+    outline: none;
+    resize: none;
+}
+
+.button {
+    display: inline-block;
+    min-width: 90px;
+    width: auto;
+    vertical-align: top;
+    background: #5181B8;
+    color: white;
+    padding: 7px 16px 8px;
+    margin: 5px 10px;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+    cursor: pointer;
+
+
+    transition: opacity .1s linear;
+}
+
+.button:hover {
+    opacity: .8;
+}
