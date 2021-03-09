@@ -1,0 +1,9 @@
+.avatar {
+    padding: 15px;
+}
+
+.avatar img {
+    display: block;
+    width: 100%;
+    height: auto;
+}

@@ -1,0 +1,20 @@
+.memories {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.item {
+    width: 90%;
+    margin: 5px auto;
+    padding: 5px;
+    cursor: pointer;
+    color: gray;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+
+.item:hover {
+    background: rgba(229, 235, 241, 0.9);
+}

@@ -10,7 +10,7 @@ const Nav = () => {
         <div className="nav__wrapper">
             <nav className='nav'>
                 <div>
-                    <NavLink to="/profile" className='nav__item'>
+                    <NavLink to="/" className='nav__item'>
                         <div className="item__img">
                             <img src={nav_user} alt=""/>
                         </div>

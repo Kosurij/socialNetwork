@@ -1,0 +1,52 @@
+.about {
+    width: 100%;
+}
+
+.data {
+    margin: 10px 20px;
+    border-bottom: 1px solid #E7E8EC;
+}
+
+.data:last-child {
+    border-bottom: none;
+}
+
+.name {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.status {
+    font-size: 14px;
+    color: gray;
+    padding-bottom: 12px;
+    cursor: pointer;
+}
+
+.item {
+    display: flex;
+    font-size: 14px;
+}
+
+.itemLabel {
+    color: gray;
+    width: 30%;
+    margin-bottom: 10px;
+}
+
+.itemLabeled {
+    color: #465885;
+    cursor: pointer;
+}
+
+
+.info {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.infoItem {
+    color: #465885;
+    text-align: center;
+    cursor: pointer;
+}

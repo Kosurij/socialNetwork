@@ -17,10 +17,9 @@ function App() {
                 <Header/>
                 <div className='container flex'>
                     <Nav/>
-                    <Route path='/profile' component={Profile}/>
+                    <Route exact path='/' component={Profile}/>
                     <Route path='/dialogs' component={Dialogs}/>
                     <Route path='/news' component={News}/>
-
                 </div>
             </div>
         </Router>
